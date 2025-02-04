@@ -1,0 +1,128 @@
+:root {
+    --color-custom: rgba(200, 200, 200, 0.3);
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Pochaevsk&family=Sour+Gummy:ital,wdth@0,125;1,125&display=swap');
+
+/* Images as background */
+.bg_index_page {
+    background: url('../img/bg_landing_page_3.jpg');
+}
+.bg_about_us_page {
+    background: url('../img/bg_alekai.jpg');
+}
+.bg_prague_page {
+    background: linear-gradient(var(--color-custom), var(--color-custom)), url('../img/bg_prague.jpg');
+}
+.bg_acores_page {
+    background: linear-gradient(var(--color-custom), var(--color-custom)), url('../img/bg_acores.jpg');
+}
+
+.top_bar {
+    background-color: #ffffff;
+    padding: 5px 30px 5px 30px;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+.menu, .social_media {
+    display: flex;
+    gap: 15px;
+}
+
+.social_media_footer {
+    background-color: #fff; 
+    padding: 5px; 
+    border-radius: 100%;
+}
+
+.social_media_footer:hover {
+    background-color: #fff999; 
+    padding: 5px; 
+    border-radius: 25%;
+}
+
+.logo_typography {
+    font-family: Courier New;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 56.64px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+/* welcome show */
+div.welcome_text {
+    position: absolute; 
+    height: 100%; 
+    width: 100%;    
+}
+
+div.welcome_text div {
+    position: absolute; 
+    top: 45%; 
+    width: 100%; 
+    text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+    /* font-weight: bold; */
+
+    font-family: "Pochaevsk", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+div.cba {
+    text-align: center;
+    margin-top: 200px; 
+    font-size: 120px; 
+    font-weight: bolder;
+    opacity: 0.5; 
+}
+
+div.cba div {
+    background-color: #000; 
+    padding: 5px; 
+    color: #fff;
+    opacity: initial;
+}
+
+p {
+    margin: 10px 30px 30px 30px; 
+    text-align: justify;
+    text-indent: 80px;
+    font-weight: 100;
+}
+
+/* Anchors config */
+div.anchor {
+    text-align: center;
+    margin-top: 125px; 
+    display: flex; 
+    justify-content: right; 
+    padding: 50px;
+}
+div.anchor div {
+    background-color: #a3ceef;
+    padding: 10px 20px 10px 20px;
+    border-radius: 100px; 
+    opacity: 0.9;
+}
+div.anchor div a {
+    color: white;
+} 
+
+#myBtn {
+    background-color: #3d749e;
+    padding: 15px 25px 15px 25px;
+    border-radius: 100px; 
+    opacity: 0.9;
+    color: white;
+    font-size: larger;
+}

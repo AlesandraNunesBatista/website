@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Açores</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/script.js"></script>
+    <script src="../js/social_media.js"></script>
+    <script src="../js/menu_options.js"></script>
+</head>
+<body class="bg_acores_page">
+    <div class="top_bar">
+        <div class="logo_typography">Ale & Kai</div>
+        <div class="menu">
+            <div><a href="../index.html">Início</a></div>
+            <div><a href="../pages/about_us.html">Sobre nós</a></div>
+            <div>
+                <select name="cities" id="cities" onchange="open_blog_page()">
+                    <script>
+                        create_menu_dropdown('acores')
+                    </script>
+                </select>
+            </div>
+        </div>
+        <div id="social_media" class="social_media">
+            <script>
+                createSocialMediaElement()
+            </script>        
+          </div>
+      </div>
+    <div>
+        <div class="cba">
+            <div>Açores</div>
+            <div style="font-size: 30px; color: #fff;">
+                O paraíso existe aqui.
+            </div>
+        </div>
+        <div style="text-align: center; margin-top: 125px; display: flex; justify-content: right; padding: 50px;">
+            <div style="background-color: #a3ceef; padding: 10px 20px 10px 20px; border-radius: 100px; opacity: 0.9;">
+                <a href="" style="color: white;">Saiba mais aqui...</a>
+            </div>
+        </div> 
+    </div>
+
+    
+</body>
+</html>

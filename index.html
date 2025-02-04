@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="./js/script.js"></script>
+    <script src="./js/social_media.js"></script>
+    <script src="./js/menu_options.js"></script>
+</head>
+<body class="bg_index_page">
+    <div class="top_bar">
+        <div class="logo_typography">Ale & Kai</div>
+        <div class="menu">
+            <div>Início</div>
+            <div><a href="./pages/about_us.html">Sobre nós</a></div>
+            <div>
+                <select id="cities" name="cities" id="cities" onchange="open_blog_page(1)">
+                    <script>
+                        create_menu_dropdown()
+                    </script>
+                </select>
+            </div>
+        </div>
+        <div id="social_media" class="social_media">
+            <script>
+                createSocialMediaElement(1)
+            </script>        
+        </div>
+    </div>
+    <div class="welcome_text">
+        <div>EXPLORE O MUNDO COM A GENTE</div> 
+    </div>
+</body>
+</html>
